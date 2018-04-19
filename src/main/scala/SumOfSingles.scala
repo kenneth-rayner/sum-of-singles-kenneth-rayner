@@ -21,14 +21,10 @@ object SumOfSingles {
   def sumUniqueNumbers(input: List[Int]): Int = {
 
     showUniqueNumbers(input).sum
-
-
   }
-
   //  (or  refactored so not referring to prev defs):
 
   def sumUniqueNumbers2(input: List[Int]): Int = {
     input.distinct.diff(input.diff(input.distinct)).sum
-
   }
 }

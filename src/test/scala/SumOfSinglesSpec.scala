@@ -2,7 +2,6 @@ import org.scalatest.{MustMatchers, WordSpec}
 
 class SumOfSinglesSpec extends WordSpec with MustMatchers{
 
-
   "SumOfSingles" must {
 
     "given a list (1,2 return 3)" in {
@@ -39,8 +38,5 @@ class SumOfSinglesSpec extends WordSpec with MustMatchers{
 
       SumOfSingles.sumUniqueNumbers2(List(1,1,2,2,3,3,4,5)) mustEqual 9
     }
-
-
   }
-
 }
